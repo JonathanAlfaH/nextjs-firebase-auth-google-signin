@@ -1,5 +1,4 @@
 'use client';
-
 import { useUserSession } from '@/hooks/use-user-session';
 import { signInWithGoogle, signOutWithGoogle } from '@/libs/firebase/auth';
 import { createSession, removeSession } from '@/actions/auth-actions';
